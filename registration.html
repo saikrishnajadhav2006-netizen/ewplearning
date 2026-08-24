@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIPLEX - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Register Here</h1>
+        <nav>
+            <a href="home.html">HOME PAGE</a> | 
+            <a href="login.html">LOGIN PAGE</a>
+        </nav>
+    </header>
+
+    <main>
+        <form id="reg-form">
+            <div>
+                <label for="first-name">Full Name</label>
+                <input type="text" id="first-name" placeholder="enter your name">
+            </div>
+            <br>
+            <div>
+                <label for="last-name">Surname</label>
+                <input type="text" id="last-name" placeholder="enter your lastname">
+            </div>
+            <br>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+            </div>
+            <br>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label>
+            </fieldset>
+            <br>
+            <div>
+                <label for="reg-email">Email</label>
+                <input type="email" id="reg-email" placeholder="enter your email">
+            </div>
+            <br>
+            <div>
+                <label for="address">Address</label>
+                <textarea id="address" placeholder="enter your address" rows="4"></textarea>
+            </div>
+            <br>
+            <fieldset>
+                <legend>Interests</legend>
+                <input type="checkbox" id="horror" name="interests" value="horror">
+                <label for="horror">Horror</label>
+
+                <input type="checkbox" id="family" name="interests" value="family">
+                <label for="family">Family</label>
+
+                <input type="checkbox" id="dramatic" name="interests" value="dramatic">
+                <label for="dramatic">Dramatic</label>
+
+                <input type="checkbox" id="emotional" name="interests" value="emotional">
+                <label for="emotional">Emotional</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferred Languages</legend>
+                <input type="checkbox" id="telugu" name="languages" value="telugu">
+                <label for="telugu">Telugu</label>
+
+                <input type="checkbox" id="hindi" name="languages" value="hindi">
+                <label for="hindi">Hindi</label>
+
+                <input type="checkbox" id="english" name="languages" value="english">
+                <label for="english">English</label>
+
+                <input type="checkbox" id="marathi" name="languages" value="marathi">
+                <label for="marathi">Marathi</label>
+            </fieldset>
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
