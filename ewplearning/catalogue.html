@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ANIPLEX Catalogue</title>
+
+    <style>
+
+        body {
+            background-color:lightgray;
+            font-family: Arial;
+        }
+
+        h1 {
+            text-align: center;
+            color: red;
+        }
+h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+
+        .catalogue {
+            width: 80%;
+            margin: auto;
+        }
+
+                .movie img {
+            border: 2px solid black;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 8px;
+        }
+
+    </style>
+
+
+    <script>
+
+        function watchMovie(movieName) {
+            alert("You selected " + movieName + "!");
+        }
+
+    </script>
+
+</head>
+
+
+<body>
+
+    <h1><i>ANIPLEX</i></h1>
+
+    <hr>
+
+    <h2>MOVIE CATALOGUE</h2>
+
+    <hr>
+
+
+    <div class="catalogue">
+
+
+        <!-- Spiderman -->
+
+        <div class="movie">
+
+            <h3>SPIDERMAN</h3>
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEti7NPNeMqQz4iseLp4lQlhzqEBmJUCG4xYjaVr3VXg&s=10"alt="Spiderman"
+                width="150"
+                height="150">
+
+            <p>A superhero action and adventure movie.</p>
+
+            <button onclick="watchMovie('Spiderman')">
+                Watch Movie
+            </button>
+
+        </div>
+
+
+        <!-- Marvel -->
+
+        <div class="movie">
+
+            <h3>MARVEL</h3>
+
+            <img
+                src="https://lumiere-a.akamaihd.net/v1/images/au_marvel_avengersendgame_hero_m_f8ba68d1.jpeg?region=0,133,750,422"                alt="Marvel"
+                width="150"
+                height="150">
+
+            <p>An exciting collection of superhero adventures.</p>
+
+            <button onclick="watchMovie('Marvel')">
+                Watch Movie
+            </button>
+
+        </div>
+
+
+        <!-- Lion King -->
+
+        <div class="movie">
+
+            <h3>THE LION KING</h3>
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQQ1_w_Bqtucn8yJHiif70KjvWuwV1fIbmbYsbGIFAw&s=10"                alt="The Lion King"
+                width="150"
+                height="150">
+
+            <p>A beautiful family adventure movie.</p>
+
+            <button onclick="watchMovie('The Lion King')">
+                Watch Movie
+            </button>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
